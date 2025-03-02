@@ -31,18 +31,18 @@ There are several boards in the set.
 
 1. The main PCB which has the CODECs and control logic. 
 
-It features:
+	It features:
 
-8 input channels capable of microphone  to line level  balanced (-54 dBm to +10 dBm) or unbalanced (-60 dBm to -1.5 dBm) inputs.
+	8 input channels capable of microphone  to line level  balanced (-54 dBm to +10 dBm) or unbalanced (-60 dBm to -1.5 dBm) inputs.
 
-8 balanced line output channels with a maximum output level of +10dBm (+4 dbm single-ended) and capable of driving headphones or 600 ohm lines.
+	8 balanced line output channels with a maximum output level of +10dBm (+4 dbm single-ended) and capable of driving headphones or 600 ohm lines.
 
 2. Wing-boards for input and out connectors and DC coupling capacitors.
 Four different wing boards asre offfered:
-1. 4 x 6.5mm balanced-line TRS phone jacks. These are suitable for inputs or outputs.  2 x 3.5mm stereo headphone sockets are also provided, for the output configuration only.
-2. Combo XLR/TRS sockets for balanced or unbalanced inputs.
-3. Male or Female XLR sockets for balanced input or outputs.
-4. An amplified 4-channel TRS output board.
+	1. 4 x 6.5mm balanced-line TRS phone jacks. These are suitable for inputs or outputs.  2 x 3.5mm stereo headphone sockets are also provided, for the output configuration only.
+	2. Combo XLR/TRS sockets for balanced or unbalanced inputs.
+	3. Male or Female XLR sockets for balanced input or outputs.
+	4. An amplified 4-channel TRS output board.
  
 The main board has jumpers that allow up to eight boards to be managed.
 
