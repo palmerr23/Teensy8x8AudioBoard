@@ -1,11 +1,15 @@
 # Teensy Audio TLV320AIC3104 8x8 CODEC Board audioControl library
 
-An Arduiono-compatible library for the Texas Instruments TLV320AIC3104 stereo channel CODEC.
-
-The library was created specifically for the associated four-CODEC Teensy Audio board. As the AIC320 only suppoers a single I2C address, there is some code to ensure the correct CODEC is being programmed via a multiplexed I2C bus.
+An Arduino-compatible library for the Texas Instruments TLV320AIC3104 stereo channel CODEC.
 
 This CODEC is TDM-compatible as can be programmed to offset its read/write slots to anywhere in a 256 slot TDM cycle and put the DO line in a Hi-Z state when not transmitting.
 
+The library was created specifically for the associated four-CODEC Teensy Audio board (https://github.com/palmerr23/Teensy8x8AudioBoard). As the AIC320 only supports a single I2C address, there is some code to ensure the correct CODEC is being programmed via a multiplexed I2C bus.
+
+It can also support a single AIC3104 in I2S mode.
+
+## Compatibility
+Arduino 2.x with Teensyduino 1.59 or later and the supplied TDMA driver.
 
 ## Single CODEC operation
 Call audioMode() with the first parameter set to 1 prior to enable( ).
@@ -24,7 +28,6 @@ There are on-board jumpers to theoretically allow up to eight muxes (boards) to 
 
 As of Teensyduino 1.59, EVEN channel samples are not transferred correctly by the Teensy Audio TDM driver. The TDMA driver supplied with this library corrects this issue.
 
-
 ## Hardware
 
 There are several boards in the set. 
@@ -39,14 +42,14 @@ The main PCB which has the CODECs and control logic. It features:
 	
 * An optional -5V supply (rear of PCB) for the amplified TRS wing board.
 
-Wing-boards with input and out connectors and DC coupling capacitors. Four different wing boards asre offfered:
+Wing-boards with input and out connectors and DC coupling capacitors. Four different wing boards are offered:
 	1. 4 x 6.5mm balanced-line TRS phone jacks. These are suitable for inputs or outputs.  2 x 3.5mm stereo headphone sockets are also provided, for the output configuration only.
 	2. Combo XLR/TRS sockets for balanced or unbalanced inputs.
 	3. Male or Female XLR sockets for balanced input or outputs.
 	4. An amplified 4-channel TRS output board.
  
 While up to eight boards may theoretically be stacked, there is a practical limit with the standard Teensy Audio Library TDM driver, which handles 16 x 16-bit duplex TDM channels - that is two 8x8 boards.
-Alternate Audio libraries, such as that managed by Jonathan Oakley https://github.com/h4yn0nnym0u5e/Audio/tree/feature/multi-TDM, offer mutliple input and output pins for each TDM instance.
+Alternate Audio libraries, such as that managed by Jonathan Oakley https://github.com/h4yn0nnym0u5e/Audio/tree/feature/multi-TDM, offer multiple input and output pins for each TDM instance.
 
 There are jumpers on the PCB to allow alternate DI/DO pins to be used. This feature is untested, and the Teensy may not be able to drive more than two boards simultaneously, due to excessive reflections and distortion of the high frequency signals by multiple long PCB tracks. Please read the hardware notes in this repo before 
 
@@ -54,10 +57,6 @@ There are jumpers on the PCB to allow alternate DI/DO pins to be used. This feat
 1. Download the [Gerber Files] and have boards produced by your favorite PCB manufacturer and then mount the SMD components.
 2. Order assembled (PCBA) boards from JLCPCB. These boards are supplied with just the SMD components. The headers required for your application must be added. Input and output coupling capacitors are not implemented on the PCB, so your implementation must include them if the Wing boards are not used.
 2. Purchase ready-made boards from my Tindie store https://www.tindie.com/products/palmerr223/teensy-8x8-audio-board/.
-
-
-## Compatibility
-Arduino 2.x with Teensyduino 1.59 or later and the supplied TDMA driver.
 
 # Function Reference
 
@@ -81,7 +80,7 @@ One AudioMemory block is required for each input or output.
 
 ### Wire
 
-Defining and initialising the Wire library is the responsibility of the user applciation. 
+Defining and initialising the Wire library is the responsibility of the user application. 
 
 This must be completed before begin( ) is called.
 
@@ -147,7 +146,6 @@ Sets the level of messages on stderr.
 Should be left at 0 for production as the writes may block if USB isn't connected.
 
 ### listMuxes( )
-Useful for checking, initally that the board jumpers are set as expected.
+Useful for checking, initially that the board jumpers are set as expected.
 
 Should be called after begin( ), where the muxes are probed and recorded.
-
