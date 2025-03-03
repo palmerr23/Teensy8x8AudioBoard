@@ -149,3 +149,10 @@ Should be left at 0 for production as the writes may block if USB isn't connecte
 Useful for checking, initially that the board jumpers are set as expected.
 
 Should be called after begin( ), where the muxes are probed and recorded.
+
+## Examples
+- 8x8
+- 16x16
+- Single-ended and differential inputs
+- Input gain control
+- Network transport
