@@ -75,7 +75,7 @@ For TDM operation the simplest form is:
 
 AudioControlTLV320AIC3104 aic(n); //(n > 1)
 
-## AudioMemory
+### AudioMemory
 
 One AudioMemory block is required for each input or output.
 
