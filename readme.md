@@ -63,7 +63,7 @@ Arduino 2.x with Teensyduino 1.59 or later and the supplied TDMA driver.
 
 The TDMA driver operates in the same way as the standard Teensy Audio TDM driver. A 'fixed' TDM2 driver is not provided.
 
-## Constructor
+### Constructor
 
 AudioControlTLV320AIC3104 aic(uint8_t codecs = 1, bool useMCLK = true, uint8_t i2sMode = AICMODE_I2S,  long sampleRate = 44100, int sampleLength = 16);
 
@@ -75,29 +75,29 @@ For TDM operation the simplest form is:
 
 AudioControlTLV320AIC3104 aic(n); //(n > 1)
 
-### AudioMemory
+### AudioMemory( )
 
 One AudioMemory block is required for each input or output.
 
-## Wire
+### Wire
 
 Defining and initialising the Wire library is the responsibility of the user applciation. 
 
 This must be completed before begin( ) is called.
 
-## begin( )
+### begin( )
 
 Resets the CODECs and muxes and then probes for muxes.
 
 begin( ) may be called with no arguments if the standard reset pin (22) is used.
 
-## enable( )
+### enable( )
 
 Called without arguments, enable( ) configures all attached CODEC control registers.
 
 enable(codec) may be useful when debugging hardware.
 
-## inputMode(mode, codec)
+### inputMode(mode, codec)
 
 Set single-ended (AIC_SINGLE) or differential (AIC_DIFF) input mode.
 
@@ -107,7 +107,7 @@ When called after enable( ), all CODECS (codec = -1) or a single CODEC may be af
 
 In differential mode '-' inputs should be grounded for unbalanced signals to reduce noise.
 
-## inputSelect(value, channel, codec)
+### inputSelect(value, channel, codec)
 
 The balanced inputs (L1) are used for both mic and line inputs. PGA gain is adjustable between 0 and 59.5 dB.
 
@@ -115,7 +115,7 @@ Compliant with the Teensy audio standard and the SGTL5000 implementation, this s
 
 For finer gain control, use inputLevel( ).
 
-## inputLevel(value, channel, codec) and gain(value, channel, codec)
+### inputLevel(value, channel, codec) and gain(value, channel, codec)
 
 The balanced inputs (L1) are used for both mic and line inputs. PGA gain is adjustable between 0 and 59.5 dB.
 
@@ -129,7 +129,7 @@ Values outside these ranges are appropriately constrained.
 
 When called without channel and codec arguments, all codecs and channels are affected.
 
-## volume(value, channel, codec)
+### volume(value, channel, codec)
 
 Sets the volume of an output channel. 
  
@@ -137,15 +137,17 @@ When called without channel and codec arguments, all codecs and channels are aff
 
 For most applications, using other means to control the output level is preferable to changing the default volume level using this function.
 
-## setVerbose( )
+### setVerbose(int verbosity)
+Sets the level of messages on stderr. 
 
-## listMuxes( )
+0 turns messages off.
 
+1 will provide some error messages on startup if the hardware doesn't match the supplied number of CODECs, etc.
 
+Should be left at 0 for production as the writes may block if USB isn't connected.
 
+### listMuxes( )
+Useful for checking, initally that the board jumpers are set as expected.
 
-
-
-
-
+Should be called after begin( ), where the muxes are probed and recorded.
 
