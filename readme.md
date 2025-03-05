@@ -53,6 +53,25 @@ Alternate Audio libraries, such as that managed by Jonathan Oakley https://githu
 
 There are jumpers on the PCB to allow alternate DI/DO pins to be used. This feature is untested, and the Teensy may not be able to drive more than two boards simultaneously, due to excessive reflections and distortion of the high frequency signals by multiple long PCB tracks. Please read the hardware notes in this repo before 
 
+## CPU Load
+
+Processing a large number of channels can lead to substantial CPU loads.
+
+16 output channels driven by a single sine generator, and no inputs processed consumes 12% CPU on a T4.0
+
+Adding 2 channels of peak readings increases it to 35%.
+
+8 channels = 66%
+
+16 channels = 110%. Despite the CPU value the sine output remains stable.
+
+## Power consumption
+With a Teensy 4.0 and one board and all input and output channels on all four codecs enabled the consumption is around 130 mA.
+
+With two boards and everything enabled, consumption rises to around 220 mA.
+
+Chip data (p12) indicates 4.3 + 6.7 = 11 mA per stereo (input + output) channel pair (i.e. 88 mA for 8x8).
+
 # Obtaining the hardware
 1. Download the [Gerber Files] and have boards produced by your favorite PCB manufacturer and then mount the SMD components.
 2. Order assembled (PCBA) boards from JLCPCB. These boards are supplied with just the SMD components. The headers required for your application must be added. Input and output coupling capacitors are not implemented on the PCB, so your implementation must include them if the Wing boards are not used.
@@ -76,7 +95,9 @@ AudioControlTLV320AIC3104 aic(n); //(n > 1)
 
 ### AudioMemory( )
 
-One AudioMemory block is required for each input or output.
+Two AudioMemory blocks are required for each provisioned input or output for stable operation. This is independent of the number of channels with active patchcords.
+
+Thus, a single board (4 CODECS) will require 20 audio blocks to be allocated.
 
 ### Wire
 
