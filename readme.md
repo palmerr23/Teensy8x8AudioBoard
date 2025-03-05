@@ -157,6 +157,8 @@ When called without channel and codec arguments, all codecs and channels are aff
 
 For most applications, using other means to control the output level is preferable to changing the default volume level using this function.
 
+## Hardware validation and debugging
+
 ### setVerbose(int verbosity)
 Sets the level of messages on stderr. 
 
