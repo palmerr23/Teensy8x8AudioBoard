@@ -26,9 +26,14 @@ With the current Teensy Audio TDM driver and the TDMA driver supplied with this 
 A PCA9544 I2C multiplexer selects one of the four CODECs on each board.
 There are on-board jumpers to theoretically allow up to eight muxes (boards) to be stacked with a single Teensy. Boards may have any address within the range. Probing on start-up will assign audio channel TDM slots in increasing order of discovered mux addresses.
 
-**As of Teensyduino 1.59, EVEN channel samples are not transferred correctly by the Teensy Audio TDM driver. The TDMA driver supplied with this library corrects this issue.**
+_As of Teensyduino 1.59, EVEN channel samples are not transferred correctly by the Teensy Audio TDM driver. The TDMA driver supplied with this library corrects this issue._
 
-## Hardware
+While up to eight boards may theoretically be stacked, there is a practical limit with the standard Teensy Audio Library TDM driver which provides a 16 x 16-bit duplex TDM interface - that is two 8x8 boards. (Note 
+Alternate Audio libraries, such as that managed by Jonathan Oakley https://github.com/h4yn0nnym0u5e/Audio/tree/feature/multi-TDM, provide the ability to support more channels.
+
+At a hardware level, there are jumpers on the PCB to allow alternate DI/DO pins to be used. This feature is untested and the Teensy may not be able to drive more than two boards simultaneously, due to reflections and distortion of the high frequency signals by multiple long PCB tracks. Please read the hardware notes in this repo before using this feature.
+
+## Available Hardware
 
 There are several boards in the set. 
 
@@ -38,20 +43,17 @@ The main PCB which has the CODECs and control logic. It features:
 
 * 8 balanced line output channels with a maximum output level of +10dBm (+4 dbm single-ended) and capable of driving headphones or 600 ohm lines.
 	
-* A multiplexer to select the I2C control channel for individual CODECs. 
+* A multiplexer to allow I2C control of individual CODECs. 
 	
 * An optional -5V supply (rear of PCB) for the amplified TRS wing board.
 
 Wing-boards with input and out connectors and DC coupling capacitors. Four different wing boards are offered:
-	1. 4 x 6.5mm balanced-line TRS phone jacks. These are suitable for inputs or outputs.  2 x 3.5mm stereo headphone sockets are also provided, for the output configuration only.
-	2. Combo XLR/TRS sockets for balanced or unbalanced inputs.
-	3. Male or Female XLR sockets for balanced input or outputs.
-	4. An amplified 4-channel TRS output board.
+1. 4 x 6.5mm balanced-line TRS phone jacks. These are suitable for inputs or outputs.  2 x 3.5mm stereo headphone sockets are also provided for the output configuration.
+2. Combo XLR/TRS sockets for balanced or unbalanced inputs.
+3. Male or Female XLR sockets for balanced input or outputs.
+4. An amplified 4-channel TRS output board.
  
-While up to eight boards may theoretically be stacked, there is a practical limit with the standard Teensy Audio Library TDM driver, which handles 16 x 16-bit duplex TDM channels - that is two 8x8 boards.
-Alternate Audio libraries, such as that managed by Jonathan Oakley https://github.com/h4yn0nnym0u5e/Audio/tree/feature/multi-TDM, offer multiple input and output pins for each TDM instance.
 
-There are jumpers on the PCB to allow alternate DI/DO pins to be used. This feature is untested, and the Teensy may not be able to drive more than two boards simultaneously, due to excessive reflections and distortion of the high frequency signals by multiple long PCB tracks. Please read the hardware notes in this repo before 
 
 ## CPU Load
 
