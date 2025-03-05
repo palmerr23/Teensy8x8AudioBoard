@@ -20,11 +20,11 @@ The first CODEC on the mux with the lowest I2C address will be used.
 
 Avoid the more complex forms of the various function calls, accepting the default arguments where they are available.
 
-## TDM operation with mutliple CODECs
+## TDM operation with multiple CODECs
 With the current Teensy Audio TDM driver and the TDMA driver supplied with this library, two stacked boards are practical, providing 16x16 operation.
 
 A PCA9544 I2C multiplexer selects one of the four CODECs on each board.
-There are on-board jumpers to theoretically allow up to eight muxes (boards) to be stacked with a single Teensy.
+There are on-board jumpers to theoretically allow up to eight muxes (boards) to be stacked with a single Teensy. Boards may have any address within the range. Probing on start-up will assign audio channel TDM slots in increasing order of discovered mux addresses.
 
 As of Teensyduino 1.59, EVEN channel samples are not transferred correctly by the Teensy Audio TDM driver. The TDMA driver supplied with this library corrects this issue.
 
@@ -178,7 +178,7 @@ Sets the level of messages on stderr.
 Should be left at the default (0) for production, as the writes may block execution if USB isn't connected.
 
 ### listMuxes( )
-Useful for checking, initially that the board jumpers are set as expected.
+Useful for checking that the board jumpers are set as required.
 
 Should be called after begin( ), where the muxes are probed and recorded.
 
