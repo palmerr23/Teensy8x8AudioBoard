@@ -26,7 +26,7 @@ With the current Teensy Audio TDM driver and the TDMA driver supplied with this 
 A PCA9544 I2C multiplexer selects one of the four CODECs on each board.
 There are on-board jumpers to theoretically allow up to eight muxes (boards) to be stacked with a single Teensy. Boards may have any address within the range. Probing on start-up will assign audio channel TDM slots in increasing order of discovered mux addresses.
 
-As of Teensyduino 1.59, EVEN channel samples are not transferred correctly by the Teensy Audio TDM driver. The TDMA driver supplied with this library corrects this issue.
+_As of Teensyduino 1.59, EVEN channel samples are not transferred correctly by the Teensy Audio TDM driver. The TDMA driver supplied with this library corrects this issue._
 
 ## Hardware
 
