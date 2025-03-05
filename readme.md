@@ -48,12 +48,16 @@ The main PCB which has the CODECs and control logic. It features:
 * An optional -5V supply (rear of PCB) for the amplified TRS wing board.
 
 Wing-boards with input and out connectors and DC coupling capacitors. Four different wing boards are offered:
-1. 4 x 6.5mm balanced-line TRS phone jacks. These are suitable for inputs or outputs.  2 x 3.5mm stereo headphone sockets are also provided for the output configuration.
-2. Combo XLR/TRS sockets for balanced or unbalanced inputs.
-3. Male or Female XLR sockets for balanced input or outputs.
-4. An amplified 4-channel TRS output board.
- 
+* 4 x 6.5mm balanced-line TRS phone jacks. These are suitable for inputs or outputs.  2 x 3.5mm stereo headphone sockets are also provided for the output configuration.
+* Combo XLR/TRS sockets for balanced or unbalanced inputs.
+* Male or Female XLR sockets for balanced input or outputs.
+* An amplified 4-channel TRS output board.
 
+# Obtaining the hardware
+Several options are available for obtaining hardware. 
+* Download the [Gerber Files] and have boards produced by your favorite PCB manufacturer and then mount the SMD components. The CODEC chips gave QFN SMD (no pins) packages. Only experienced constructors should consider this option.
+* Order assembled (PCBA) boards from JLCPCB. https://oshwlab.com/palmerr23/works These boards are supplied with just the SMD components. The headers required must be supplied and mounted by the constructor. Input and output coupling capacitors are not implemented on the PCB, so your implementation must include them if the Wing boards are not used.
+* Purchase ready-made boards from my Tindie store https://www.tindie.com/products/palmerr223/teensy-8x8-audio-board/. 
 
 ## CPU Load
 
@@ -74,10 +78,6 @@ With two boards and everything enabled, consumption rises to around 220 mA.
 
 Chip data (p12) indicates 4.3 + 6.7 = 11 mA per stereo (input + output) channel pair (i.e. 88 mA for 8x8).
 
-# Obtaining the hardware
-1. Download the [Gerber Files] and have boards produced by your favorite PCB manufacturer and then mount the SMD components.
-2. Order assembled (PCBA) boards from JLCPCB. These boards are supplied with just the SMD components. The headers required for your application must be added. Input and output coupling capacitors are not implemented on the PCB, so your implementation must include them if the Wing boards are not used.
-2. Purchase ready-made boards from my Tindie store https://www.tindie.com/products/palmerr223/teensy-8x8-audio-board/.
 
 # Function Reference
 
