@@ -131,7 +131,7 @@ In differential mode '-' inputs should be grounded for unbalanced signals to red
 
 The balanced inputs (L1) are used for both mic and line inputs. PGA gain is adjustable between 0 and 59.5 dB.
 
-Compliant with the Teensy audio standard and the SGTL5000 implementation, this sets an input to either MIC (-62.5 dBm) or Line (0dBm).
+Compliant with the Teensy audioControl standard and the SGTL5000 implementation, this sets an input to either MIC (-59.5 dB [-62.5 dBm]) or Line (0 dB [-2.5 dBm]).
 
 For finer gain control, use inputLevel( ).
 
@@ -148,6 +148,13 @@ For gain( ) the range is 0 to 59 dB.
 Values outside these ranges are appropriately constrained. 
 
 When called without channel and codec arguments, all codecs and channels are affected.
+
+### setHPF(uint8_t option, int8_t channel = -1, int8_t codec = -1)
+Input channel DC removal filter.
+0 = off	- power on default
+1 = 0.0045 Fs (0.2 Hz @ Fs = 44.1kHz) - library default
+2 = 0.0125 Fs (0.5 Hz)
+3 = 0.025  Fs (1.1 Hz)
 
 ### volume(value, channel, codec)
 
@@ -166,7 +173,9 @@ Sets the level of messages on stderr.
 
 1 will provide some error messages on startup if the hardware doesn't match the supplied number of CODECs, etc.
 
-Should be left at 0 for production as the writes may block if USB isn't connected.
+2 provides additional messages as hardware is enabled or values changed 
+
+Should be left at the default (0) for production, as the writes may block execution if USB isn't connected.
 
 ### listMuxes( )
 Useful for checking, initially that the board jumpers are set as expected.
