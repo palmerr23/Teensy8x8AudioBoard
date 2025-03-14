@@ -19,7 +19,7 @@ Arduino 4.x with Teensyduino 1.59 or later and the supplied TDMA driver.
 
 There are several boards in the set. 
 
-#Main PCB
+# Main PCB
 
 The main PCB which has the four CODECs and control logic. It features:
 
