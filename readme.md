@@ -51,7 +51,7 @@ Arduino 4.x with Teensyduino 1.59 or later and the supplied TDMA driver.
 
 Processing a large number of channels can lead to substantial CPU loads.
 
-```16 output channels driven by a single sine generator, and no inputs processed consumes 12% CPU on a T4.0
+``` 16 output channels driven by a single sine generator, and no inputs processed consumes 12% CPU on a T4.0
 
 Adding 2 channels of peak readings increases it to 35%.
 
