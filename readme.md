@@ -51,15 +51,17 @@ Arduino 4.x with Teensyduino 1.59 or later and the supplied TDMA driver.
 
 ## CPU Load
 
-Processing a large number of channels can lead to substantial CPU loads.
+CPU load for the basic TDM transfers is low. 
 
-* 16 output channels driven by a single sine generator, and no inputs processed consumes 12% CPU on a T4.0
+* 16 output channels driven by a single sine generator, and no inputs processed consumes 0.12% CPU on a T4.0
 
-* Adding 2 channels of peak readings increases it to 35%.
+* Adding 2 channels of peak readings increases it to 0.35%.
 
-* 8 channels = 66%
+* 8 channels = 0.66%
 
-* 16 channels = 110%. Despite the CPU value the sine output remains stable.
+* 16 channels = 1.1%
+
+
 
 ## Power consumption
 With a Teensy 4.0 and one board and all input and output channels on all four codecs enabled the consumption is around 130 mA.
