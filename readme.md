@@ -15,6 +15,8 @@ If more are desired, alternate Audio libraries, such as that managed by Jonathan
 
 There are several boards in the set. 
 
+There is further hardware information in the "8x8 and 16x16 Teensy Audio Board.docx" file.
+
 ## Main PCB
 
 The main PCB which has the four CODECs and control logic. It features:
