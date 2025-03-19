@@ -2,6 +2,7 @@
 Only images and schematics at this stage.
 
 Gerbers will be added after final prototypes have been tested.
+PCBA files will be in JLCPCB format.
 
 Most connectors have been omitted from board images for clarity.
 
