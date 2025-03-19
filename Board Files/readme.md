@@ -3,7 +3,7 @@ Only images and schematics at this stage.
 
 Gerbers will be added after final prototypes have been tested.
 
-Most connectors omitted from images for clarity.
+Most connectors have been omitted from board images for clarity.
 
 ## Bill of Materials
 The Consolidated BOM file contains:
