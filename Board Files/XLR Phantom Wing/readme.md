@@ -2,4 +2,6 @@
 
 Female  XLR sockets. 
 
-Only one sockect is shown for clarity.
+Imag shows only one sockect is shown for clarity.
+
+BOM file is indicative of parts required in addition to the PCB.
