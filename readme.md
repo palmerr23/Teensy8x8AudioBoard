@@ -64,9 +64,9 @@ CPU load for the basic TDM transfers is low.
 
 
 ## Power consumption
-With a Teensy 4.0 and one board and all input and output channels on all four codecs enabled the consumption is around 130 mA.
+With a Teensy 4.0 and one board and all input and output channels on all four codecs enabled the consumption is around 130 mA, mostly consumed oy the 1.8V rail.
 
-With two boards and everything enabled, consumption rises to around 220 mA.
+A T4.0 with two boards and everything enabled, consumption rises to around 220 mA without any load on the outputs. Current draw will increase with low impedance loads.
 
 Chip data (p12) indicates 4.3 + 6.7 = 11 mA per stereo (input + output) channel pair (i.e. 88 mA for 8x8).
 
