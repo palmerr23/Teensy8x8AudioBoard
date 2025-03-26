@@ -1,0 +1,25 @@
+Comment,Designator,Footprint,LCSC,Quantity
+1uF,C10,CP_Radial_D5.0mm_P2.00mm,,1
+1uF,C9,CP_Radial_D5.0mm_P2.00mm,,1
+Phantom,J5,PinHeader_1x02_P2.54mm_Vertical,,1
+1uF,C8,CP_Radial_D5.0mm_P2.00mm,,1
+1uF,C7,CP_Radial_D5.0mm_P2.00mm,,1
+1uF,C6,CP_Radial_D5.0mm_P2.00mm,,1
+1uF 50V,C5,CP_Radial_D5.0mm_P2.00mm,,1
+1uF,C4,CP_Radial_D5.0mm_P2.00mm,,1
+1uF,C3,CP_Radial_D5.0mm_P2.00mm,,1
+1uF,C2,CP_Radial_D5.0mm_P2.00mm,,1
+1uF,C1,CP_Radial_D5.0mm_P2.00mm,,1
+6.8k,R2,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+NC3FAAH-0,J6,Jack_XLR_Neutrik_NC3FAAH-0_Horizontal,,1
+6.8k,R1,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+6.8k,R7,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+6.8k,R4,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+NC3FAAH-0,J1,Jack_XLR_Neutrik_NC3FAAH-0_Horizontal,,1
+NC3FAAH-0,J4,Jack_XLR_Neutrik_NC3FAAH-0_Horizontal,,1
+INPUTS,J3,SHDRRA12W65P254_2X6_1758X1090X1005P,,1
+6.8k,R3,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+6.8k,R5,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+6.8k,R8,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+6.8k,R6,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+NC3FAAH-0,J2,Jack_XLR_Neutrik_NC3FAAH-0_Horizontal,,1
