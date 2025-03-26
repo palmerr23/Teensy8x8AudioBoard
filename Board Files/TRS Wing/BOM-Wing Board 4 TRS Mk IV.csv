@@ -1,0 +1,40 @@
+Comment,Designator,Footprint,LCSC,Quantity
+10uF,C6,CP_Radial_D6.3mm_P2.50mm,,1
+NMJ6HFD2,J4,NMJ6HFD2,,1
+47,R14,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+470k,R4,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+47,R15,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+10uF,C5,CP_Radial_D6.3mm_P2.50mm,,1
+NMJ6HFD2,J5,NMJ6HFD2,,1
+47,R9,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+10uF,C7,CP_Radial_D6.3mm_P2.50mm,,1
+CUI SJ1-353xNG,J2,Jack_3.5mm_CUI_SJ1-3535NG_Horizontal_CircularHoles,,1
+470k,R8,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+470k,R3,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+47,R13,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+10uF,C4,CP_Radial_D6.3mm_P2.50mm,,1
+10uF,C3,CP_Radial_D6.3mm_P2.50mm,,1
+470k,R1,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+47,R11,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+Neutrik NMJ6HFD2,J6,NMJ6HFD2,,1
+INPUTS,J1,SHDRRA12W65P254_2X6_1758X1090X1005P,,1
+470k,R5,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+10uF,C8,CP_Radial_D6.3mm_P2.50mm,,1
+470k,R6,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+NMJ6HFD2,J3,NMJ6HFD2,,1
+CUI SJ1-353xNG,J7,Jack_3.5mm_CUI_SJ1-3535NG_Horizontal_CircularHoles,,1
+47,R10,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+470k,R2,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+47,R12,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+10uF,C2,CP_Radial_D6.3mm_P2.50mm,,1
+10uF,C1,CP_Radial_D6.3mm_P2.50mm,,1
+470k,R7,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+47,R16,R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,,1
+GND,JP7,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,1
+GND,JP4,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,1
+GND,JP6,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,1
+GND,JP8,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,1
+GND,JP2,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,1
+GND,JP1,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,1
+GND,JP3,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,1
+GND,JP5,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,1
