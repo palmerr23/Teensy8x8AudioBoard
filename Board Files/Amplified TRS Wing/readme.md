@@ -1,4 +1,4 @@
-#4 output amplified TRS Wing Board for balanced or unbalanced outputs
+# 4 output amplified TRS Wing Board for balanced or unbalanced outputs
 
 This board requires +/-5V supplies (via the IDC cable).
 
