@@ -6,5 +6,5 @@ It has a gain of 3, resulting in a maximum output level of 13.691k p-p (4.8V RMS
 
 BOM file has indicative parts only.
 
-*CPL files are not supplied as PCBA placementa nd parts have not been verified*
+*CPL files are not supplied as PCBA placement and parts have not been verified*
 
