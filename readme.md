@@ -31,6 +31,10 @@ The main PCB which has the four CODECs and control logic. It features:
 
 * The main PCB does not have decoupling capacitors on the inputs or outputs. They are on the Wing boards.
 
+* Rev K, L and M boards are entirely interoperable. 
+
+* Rev L & M have an additional pin on the Expansion header to assist in 32 x 32 and greater operation.
+
 ## Input and output Wing boards
 Wing-boards with input or output connectors and DC coupling capacitors. Several different wing boards are offered:
 * 4 x 6.5mm balanced-line TRS phone jacks. These are suitable for inputs or outputs.  2 x 3.5mm stereo headphone sockets are also provided for the output configuration.
@@ -71,5 +75,4 @@ On a T4.0 with two boards and everything enabled, consumption rises to around 22
 These figures are without any significant load on the outputs. Current draw will increase with low impedance loads.
 
 Chip data (p12) indicates 4.3 + 6.7 = 11 mA per stereo (input + output) channel pair (i.e. 88 mA for 8x8).
-
 
