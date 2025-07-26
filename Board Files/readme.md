@@ -1,7 +1,7 @@
 ## PCBA
 When ordering assembled boards, carefully check parts orientation.
 
-Particularly, the two AMS 1117 regulators and the buffer chips under the Teensy have a tendency to be rotate by 180 degeres. 
+Particularly, the two AMS 1117 regulators, teh ISC bus expander and the TDM clock buffer chips under the Teensy have a tendency to be rotated. 
 
 ## Connector templates
 TRS Board - 1/4" TRS connector base height varies between manufacturers.
