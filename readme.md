@@ -78,5 +78,6 @@ Chip data (p12) indicates 4.3 + 6.7 = 11 mA per stereo (input + output) channel 
 These designs are  certified Open Source Hardware
 
 https://certification.oshwa.org/list.html
+
 ID: AU000022
 
