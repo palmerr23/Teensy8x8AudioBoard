@@ -50,7 +50,6 @@ Several options are available for obtaining hardware.
 * Input and output coupling capacitors are not implemented on the PCB, so your implementation must include them if the Wing boards are not used.
 * Purchase ready-made boards from my Tindie store https://www.tindie.com/products/palmerr223/teensy-8x8-audio-board/. 
 
-
 ## Compatibility
 Arduino 4.x with Teensyduino 1.59 or later and the supplied TDMA driver.
 
@@ -66,8 +65,6 @@ CPU load for the basic TDM transfers is low.
 
 * 16 channels = 1.1%
 
-
-
 ## Power consumption
 With a Teensy 4.0 and one board and all input and output channels on all four CODECs enabled the consumption is around 130 mA, mostly consumed on the 1.8V rail.
 
@@ -76,4 +73,10 @@ On a T4.0 with two boards and everything enabled, consumption rises to around 22
 These figures are without any significant load on the outputs. Current draw will increase with low impedance loads.
 
 Chip data (p12) indicates 4.3 + 6.7 = 11 mA per stereo (input + output) channel pair (i.e. 88 mA for 8x8).
+
+## Open Source Hardware
+These designs are  certified Open Source Hardware
+
+https://certification.oshwa.org/list.html
+ID: AU000022
 
