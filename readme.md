@@ -46,7 +46,8 @@ Wing-boards with input or output connectors and DC coupling capacitors. Several 
 # Obtaining the hardware
 Several options are available for obtaining hardware. 
 * Download the [Gerber Files] and have boards produced by your favorite PCB manufacturer and then mount the SMD components. The CODEC chips gave QFN SMD (no pins) packages. Only experienced constructors should consider this option.
-* Order assembled (PCBA) boards from JLCPCB. https://oshwlab.com/palmerr23/works These boards are supplied with just the SMD components. The headers required must be supplied and mounted by the constructor. Input and output coupling capacitors are not implemented on the PCB, so your implementation must include them if the Wing boards are not used.
+* For the main 8x8 boards, the repository has all the necessary files to order assembled (PCBA) boards from JLCPCB. These boards are supplied with just the SMD components. The headers required must be supplied and mounted by the constructor. Carefully check component orientation using the JLCPCB utility. The AMS117 regulators, the clock signal buffers under the Teensy and the I2C bus expander are sometimes rotated.
+* Input and output coupling capacitors are not implemented on the PCB, so your implementation must include them if the Wing boards are not used.
 * Purchase ready-made boards from my Tindie store https://www.tindie.com/products/palmerr223/teensy-8x8-audio-board/. 
 
 
