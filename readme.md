@@ -1,6 +1,6 @@
 # Teensy Audio TLV320AIC3104 8x8 CODEC Board 
 
-### Dicussions have been enabled for queries or suggestions about this hardware and software. 
+### Discussions have been enabled for queries or suggestions about this hardware and software. 
 
 The Board comprises four TLV320AIC3104 stereo CODECs and a PCA9546 I2C multiplexer to allow individual CODECs to be programmed. Audio data transfer is via TDM using the standard Teensy 4.x pin allocations. Pin 22 is used for reset.
 
