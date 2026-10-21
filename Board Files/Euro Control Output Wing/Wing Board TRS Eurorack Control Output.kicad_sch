@@ -1,0 +1,7481 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fe1007c5-3126-4e7c-9e9b-a444a39fffc7")
+	(paper "A4")
+	(title_block
+		(title "Amplified TRS Wing Board + RJ45")
+		(date "2025-04-07")
+		(rev "1")
+		(company "Platypus(Richard Palmer)")
+	)
+	(lib_symbols
+		(symbol "Amplifier_Operational:NE5532"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NE5532"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NE5532_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NE5532_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NE5532_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x06_Odd_Even"
+				(at 1.27 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_02x06_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 3.81 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Potentiometer_Trim_US"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim_US"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Trim-potentiometer, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N914"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N914"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N914_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N914_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RP:AudioJack3_Switch"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J1"
+				(at -9.398 -0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NMJ6HFD2"
+				(at 11.43 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SamacSys_Parts:NMJ6HFD2"
+				(at 0.762 7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)"
+				(at 1.778 8.382 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description_1" "Phone Connectors 3C STEREO 3-SPST NC"
+				(at 19.05 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Height" "15.69"
+				(at 19.05 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mouser Part Number" "550-20301"
+				(at 19.05 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Neutrik/NMJ6HFD2?qs=y5MlCMoPWsng3r9W7xlRqw%3D%3D"
+				(at 19.05 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer_Name" "Neutrik"
+				(at 19.05 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer_Part_Number" "NMJ6HFD2"
+				(at 19.05 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AudioJack3_Switch_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.54 6.35)
+					(end -5.08 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack3_Switch_1_1"
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.826) (xy -1.016 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.254) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.334) (xy 2.032 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy -2.54 5.08) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -1.27 2.54) (xy -1.27 4.826) (xy -1.524 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "SN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "RN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cs42448-CS5343 audio RevE v3 HDR Simple-eagle-import:AGND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#SUPPLY"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -2.667 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AGND_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "1/4\""
+		(exclude_from_sim no)
+		(at 203.073 34.925 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "529f568c-15f1-4405-b9b8-595c272fcc4a")
+	)
+	(text "CONCEPT ONLY - UNTESTED"
+		(exclude_from_sim no)
+		(at 154.94 17.78 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "642dcc9c-b9cc-4c69-bd34-e35be1dff99c")
+	)
+	(text "TRIM"
+		(exclude_from_sim no)
+		(at 69.85 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8860e980-5fca-472d-a925-581b06668334")
+	)
+	(text "Teensy Audio\nEurorack Control Output\nWing Board\nTA-EUAO-01"
+		(exclude_from_sim no)
+		(at 35.56 25.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "9cbed2ab-ab9c-4f93-84d6-1ae93aee6172")
+	)
+	(text "V+, V- = 9V"
+		(exclude_from_sim no)
+		(at 266.7 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec2ec72e-ae7b-4362-85b7-f40f8fddeca7")
+	)
+	(text "AV = 5 (+/5V max)"
+		(exclude_from_sim no)
+		(at 155.575 24.765 0)
+		(effects
+			(font
+				(size 1.651 1.651)
+			)
+		)
+		(uuid "f4b5d06d-5460-4c3e-8277-d621c847abe9")
+	)
+	(junction
+		(at 144.78 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03ed5808-f8e1-4927-ae40-7e86b51f1630")
+	)
+	(junction
+		(at 163.83 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b30f5d7-2037-476c-950d-75f238409b3a")
+	)
+	(junction
+		(at 197.485 47.625)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20b91b2d-5219-4a99-818b-9e29f87e70bb")
+	)
+	(junction
+		(at 66.675 113.665)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2386dd81-befe-4ce1-b550-b1c460e8dc8d")
+	)
+	(junction
+		(at 163.83 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23920b12-c4ac-48aa-9413-8c935d48c58e")
+	)
+	(junction
+		(at 197.485 98.425)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29d88c3a-93b6-4b0a-b9c3-93dfda2a693e")
+	)
+	(junction
+		(at 53.975 113.665)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a7b4268-7d74-4048-b2eb-10de30343e5c")
+	)
+	(junction
+		(at 217.805 114.935)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "358f6840-8dc9-48ea-aafb-af919fd170ef")
+	)
+	(junction
+		(at 74.295 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c8ff6cc-7aa8-4033-802c-8c8d0fec456d")
+	)
+	(junction
+		(at 197.485 69.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e38a79c-6d1d-489c-91ed-cb1c149390f5")
+	)
+	(junction
+		(at 160.02 144.145)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4570f9fc-3b43-4b3a-8843-409e71ca9ff9")
+	)
+	(junction
+		(at 160.02 154.305)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45e62faf-2770-42c6-ad3d-7ca212c48825")
+	)
+	(junction
+		(at 197.485 123.825)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49d89d18-7c98-468f-8262-9f2bd3611494")
+	)
+	(junction
+		(at 197.485 118.745)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f3c5ed8-2ec4-4759-aa59-bd10304cd9a8")
+	)
+	(junction
+		(at 147.32 120.015)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5867e133-8203-4d03-91d3-123ba0030267")
+	)
+	(junction
+		(at 121.92 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dca9f54-d4b7-40f5-8330-38720626093d")
+	)
+	(junction
+		(at 53.975 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61e1fb83-c8b1-40b9-b033-8c0a563d8fdb")
+	)
+	(junction
+		(at 197.485 95.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74c556b8-ce3f-4fdc-8c98-314f3e74f57f")
+	)
+	(junction
+		(at 251.46 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78538e8a-8092-45ed-9ec4-7e9c54d4e61a")
+	)
+	(junction
+		(at 217.805 89.535)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d214d0c-6014-422a-be24-a6f8c823316a")
+	)
+	(junction
+		(at 144.78 154.305)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87f92a6a-80ff-4c23-8599-2530975ee346")
+	)
+	(junction
+		(at 197.485 93.345)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bb9be6b-1809-4586-b98e-4588b444c688")
+	)
+	(junction
+		(at 197.485 50.165)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98403682-544f-455d-84d6-1b4b57532a01")
+	)
+	(junction
+		(at 144.78 158.115)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b4dcf2c-d511-4645-8fe6-2f1340119779")
+	)
+	(junction
+		(at 121.92 107.315)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9be45ae0-a317-445c-a9b5-a58e65828bc1")
+	)
+	(junction
+		(at 197.485 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f8fe103-5dce-48e3-91b0-2af37697aa6d")
+	)
+	(junction
+		(at 163.83 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a295992c-fc48-4757-b908-ff4ff160f5d9")
+	)
+	(junction
+		(at 197.485 74.295)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a62b28d1-9c4a-48a5-81c8-c12dee8fb489")
+	)
+	(junction
+		(at 197.485 45.085)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7e07a51-de8d-4b5b-91dd-601e10b8324e")
+	)
+	(junction
+		(at 144.78 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b086e5c1-d809-4737-972e-2f8c9695b398")
+	)
+	(junction
+		(at 197.485 121.285)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b93d28bb-4dce-44fa-8d4e-514436d39484")
+	)
+	(junction
+		(at 259.08 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c03c0988-d3d7-4405-860f-a067647780f7")
+	)
+	(junction
+		(at 259.08 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c13b37d7-206c-4cf4-8a01-b8c3ad266a6b")
+	)
+	(junction
+		(at 147.32 123.825)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0427991-6773-49ff-8714-e0960fbb5180")
+	)
+	(junction
+		(at 217.805 65.405)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db52e61a-6910-4294-a814-54f8c8aa30dc")
+	)
+	(junction
+		(at 144.78 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0c06718-02e9-4fac-95c1-b21cb623935a")
+	)
+	(junction
+		(at 259.08 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e27de4b8-999e-4f54-bdbe-2651f8ae266c")
+	)
+	(junction
+		(at 251.46 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e31000cb-f82d-4d30-a4b8-3665d2773ae1")
+	)
+	(junction
+		(at 163.83 120.015)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e43a5c46-9725-4b72-a6f4-faab879cadb3")
+	)
+	(junction
+		(at 144.78 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef639779-b3e7-475e-a6ea-91094971a8f7")
+	)
+	(junction
+		(at 163.83 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0ab3684-9133-4243-ab88-fd0c844a41e4")
+	)
+	(junction
+		(at 80.645 107.315)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4ba5abf-839f-4b1a-963f-197996086d77")
+	)
+	(junction
+		(at 163.83 109.855)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5340a1e-5175-40b8-920d-17507c7a8eae")
+	)
+	(wire
+		(pts
+			(xy 259.08 43.18) (xy 259.08 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00330f2e-6aac-4695-81af-d14b5c04c863")
+	)
+	(wire
+		(pts
+			(xy 80.645 107.315) (xy 121.92 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03543d97-18c8-428d-b2e1-32d778f66c45")
+	)
+	(wire
+		(pts
+			(xy 187.325 128.905) (xy 197.485 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047a9814-a0ee-4fdd-8a4f-440c16729a1b")
+	)
+	(wire
+		(pts
+			(xy 197.485 98.425) (xy 197.485 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c035a3-43ae-4c73-b64d-3a1f32c01c8a")
+	)
+	(wire
+		(pts
+			(xy 67.945 49.53) (xy 74.295 49.53)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "05163b35-4376-4148-a897-f74d23492092")
+	)
+	(wire
+		(pts
+			(xy 163.83 53.34) (xy 163.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09468c0b-34e2-47f4-b2e7-935580f106d2")
+	)
+	(wire
+		(pts
+			(xy 160.655 123.825) (xy 163.83 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1038e051-75a4-4ab4-b35f-31724143c262")
+	)
+	(wire
+		(pts
+			(xy 80.645 29.21) (xy 80.645 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c335cd-74b5-40f2-beac-6f4c9cc21461")
+	)
+	(wire
+		(pts
+			(xy 80.645 113.665) (xy 66.675 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c20c99-1239-44ea-b90a-437a11ab50fd")
+	)
+	(wire
+		(pts
+			(xy 121.92 36.83) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bec584d-68cf-4f84-834c-ee81be7d1844")
+	)
+	(wire
+		(pts
+			(xy 197.485 95.885) (xy 197.485 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dae42f3-4668-4e36-962f-d87a22f5a1eb")
+	)
+	(wire
+		(pts
+			(xy 144.78 49.53) (xy 156.21 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20275ec0-7b2d-42f1-9b9a-0edfd839fae1")
+	)
+	(wire
+		(pts
+			(xy 80.645 41.91) (xy 102.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213a6cd1-17f5-4a8c-aa53-b20ee108d974")
+	)
+	(wire
+		(pts
+			(xy 80.645 39.37) (xy 102.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2658e910-c84f-422d-bad0-643295a1c478")
+	)
+	(wire
+		(pts
+			(xy 70.485 107.315) (xy 80.645 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ad74fa-9d17-4f8a-99ae-34c61b464898")
+	)
+	(wire
+		(pts
+			(xy 137.16 123.825) (xy 142.24 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27bdf935-c79e-421f-954b-62d98999d11a")
+	)
+	(wire
+		(pts
+			(xy 148.59 41.91) (xy 144.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b49cca2-3833-45ce-8f0a-f506cb8207a7")
+	)
+	(wire
+		(pts
+			(xy 67.945 29.21) (xy 64.77 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bea4e79-2183-404d-8f3f-1a520d1f5f91")
+	)
+	(wire
+		(pts
+			(xy 161.29 49.53) (xy 163.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5243b3-a2b6-4a4a-8df3-8bfbf39fbfea")
+	)
+	(wire
+		(pts
+			(xy 197.485 45.085) (xy 197.485 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5948c6-890c-49f4-bf84-9265be230479")
+	)
+	(wire
+		(pts
+			(xy 66.675 111.125) (xy 66.675 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c84d1f0-5ca6-4e07-8cfa-042778910031")
+	)
+	(wire
+		(pts
+			(xy 197.485 65.405) (xy 217.805 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4129bb-4440-44d5-b4d9-39af6240e50d")
+	)
+	(wire
+		(pts
+			(xy 147.32 112.395) (xy 147.32 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5a33e3-7634-4f0f-a8d1-4a627d2d4f7c")
+	)
+	(wire
+		(pts
+			(xy 197.485 93.345) (xy 197.485 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dad97ad-86d4-452f-890a-e17a0a8be4f7")
+	)
+	(wire
+		(pts
+			(xy 144.78 154.305) (xy 144.78 158.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f97cd4c-76e0-48be-87d5-753a39d01727")
+	)
+	(wire
+		(pts
+			(xy 160.02 154.305) (xy 160.02 158.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b8a354-2509-4772-a48f-eaf86261ceef")
+	)
+	(wire
+		(pts
+			(xy 121.92 141.605) (xy 144.78 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375c8355-4716-4139-852a-b29908c3de67")
+	)
+	(wire
+		(pts
+			(xy 66.675 90.17) (xy 66.675 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c999f39-80f6-4839-af8a-e63e8fec8fa1")
+	)
+	(wire
+		(pts
+			(xy 197.485 69.215) (xy 197.485 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8f42f3-5b39-4d29-a06b-7c88cc63b122")
+	)
+	(wire
+		(pts
+			(xy 81.915 29.21) (xy 80.645 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7f31a4-36d4-4268-bb37-500fc60d6393")
+	)
+	(wire
+		(pts
+			(xy 241.3 36.83) (xy 251.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f379acc-98ff-48c1-9eb2-b0f10f7a95da")
+	)
+	(wire
+		(pts
+			(xy 144.78 53.34) (xy 156.21 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f93d0f-3202-4d36-83e3-1e957cb29415")
+	)
+	(wire
+		(pts
+			(xy 197.485 89.535) (xy 217.805 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45454585-50a3-42d3-ab9e-658ac063053d")
+	)
+	(wire
+		(pts
+			(xy 121.92 36.83) (xy 148.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479eb672-710f-45b3-b410-ddf688fa9562")
+	)
+	(wire
+		(pts
+			(xy 187.325 103.505) (xy 197.485 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4877b054-9e63-474a-9ba1-54ccf0c5b857")
+	)
+	(wire
+		(pts
+			(xy 121.92 107.315) (xy 121.92 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8ed220-707f-4c58-a542-eab01d12fe6f")
+	)
+	(wire
+		(pts
+			(xy 134.62 158.115) (xy 139.7 158.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e3694a-8631-4cec-b5d0-82c39b934f59")
+	)
+	(wire
+		(pts
+			(xy 163.83 87.63) (xy 163.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56722d63-cc3b-4d52-b8ba-b65b372f2403")
+	)
+	(wire
+		(pts
+			(xy 161.29 53.34) (xy 163.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598cde86-c366-4304-abe0-c5559451161b")
+	)
+	(wire
+		(pts
+			(xy 163.83 83.82) (xy 163.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2a5168-ea57-4720-b56a-d4dd51c36ec7")
+	)
+	(wire
+		(pts
+			(xy 67.945 29.21) (xy 67.945 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee3a75f-4363-4e7f-8d72-9db097a4ecf1")
+	)
+	(wire
+		(pts
+			(xy 144.78 146.685) (xy 144.78 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601f4ff4-ebc1-45f5-b992-ecefe94bf8fd")
+	)
+	(wire
+		(pts
+			(xy 53.975 113.665) (xy 66.675 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612326f0-5e94-4b2b-b12a-c505e413629a")
+	)
+	(wire
+		(pts
+			(xy 144.78 41.91) (xy 144.78 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640b7b2f-0137-4f5e-bbb7-6f52c32239bd")
+	)
+	(wire
+		(pts
+			(xy 197.485 41.275) (xy 217.805 41.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ec8c97-3265-4888-b04d-e29615618b57")
+	)
+	(wire
+		(pts
+			(xy 162.56 109.855) (xy 163.83 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689fbae3-5e67-4ccc-84d1-8adbbbcb794e")
+	)
+	(wire
+		(pts
+			(xy 147.32 76.2) (xy 144.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a781ed7-4b04-4222-a0e1-6e174855faa8")
+	)
+	(wire
+		(pts
+			(xy 251.46 36.83) (xy 259.08 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac82165-4c6d-437f-8ff9-46bb5f033ffc")
+	)
+	(wire
+		(pts
+			(xy 197.485 41.275) (xy 197.485 45.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727642c6-e750-4460-94e2-c085fbffe50f")
+	)
+	(wire
+		(pts
+			(xy 241.3 52.07) (xy 251.46 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756b2492-074f-4e79-8f37-fcff0d5de494")
+	)
+	(wire
+		(pts
+			(xy 197.485 121.285) (xy 197.485 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7643c349-1a26-4283-8a14-764d4b12e1b7")
+	)
+	(wire
+		(pts
+			(xy 251.46 52.07) (xy 259.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7916395c-2a95-41ea-958b-e323613765d7")
+	)
+	(wire
+		(pts
+			(xy 80.645 36.83) (xy 102.87 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79550254-7156-40fb-a7c8-853c3b103432")
+	)
+	(wire
+		(pts
+			(xy 67.945 49.53) (xy 67.945 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7ca69089-2e72-4c0a-95a9-59c810827115")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83404aa2-b922-4889-a0eb-7d3f26e35b78")
+	)
+	(wire
+		(pts
+			(xy 259.08 36.83) (xy 270.51 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860444f8-232a-4c9b-849a-fa9e5e069e2a")
+	)
+	(wire
+		(pts
+			(xy 187.325 55.245) (xy 197.485 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a9a087-0506-4d57-8189-9b98b3d0eee8")
+	)
+	(wire
+		(pts
+			(xy 53.975 88.265) (xy 53.975 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7ecb41-0de1-4f08-b2b8-e7a40a728292")
+	)
+	(wire
+		(pts
+			(xy 74.295 49.53) (xy 80.645 49.53)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "912c1ef3-e4eb-4770-849f-1654f91e80fe")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922845e8-2a5a-4c7e-beb9-183fd23b02e0")
+	)
+	(wire
+		(pts
+			(xy 197.485 123.825) (xy 197.485 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a538a5-aefe-4236-82e5-bc65a11bbeb6")
+	)
+	(wire
+		(pts
+			(xy 163.83 39.37) (xy 168.91 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94cfe0b7-02f0-4d5f-bbd6-aff38951734f")
+	)
+	(wire
+		(pts
+			(xy 160.02 87.63) (xy 163.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9731e8df-37b7-4be2-a44b-a3e67f1c9d0c")
+	)
+	(wire
+		(pts
+			(xy 53.975 76.835) (xy 53.975 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995dffca-d5cf-4c50-89ef-428271ecc223")
+	)
+	(wire
+		(pts
+			(xy 163.83 39.37) (xy 163.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd8caf9-13e6-4221-b110-9e8e1528c40c")
+	)
+	(wire
+		(pts
+			(xy 66.675 90.17) (xy 53.975 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50a24a8-9a12-45fb-b279-b37d1c54a985")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 121.92 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52902fa-63cc-450c-ad7d-527a51d3fcd0")
+	)
+	(wire
+		(pts
+			(xy 187.325 79.375) (xy 197.485 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a692ecc9-950e-406e-8bdb-2deb6a897a04")
+	)
+	(wire
+		(pts
+			(xy 197.485 121.285) (xy 197.485 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6e05e4-e602-4711-85a4-8553872e24ad")
+	)
+	(wire
+		(pts
+			(xy 160.02 144.145) (xy 160.02 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdde6eb-5585-4bce-857e-dcf95304c21e")
+	)
+	(wire
+		(pts
+			(xy 134.62 53.34) (xy 139.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac39ebfb-96c0-4da9-a403-cb0ca7ce1862")
+	)
+	(wire
+		(pts
+			(xy 160.02 154.305) (xy 157.48 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac43d657-e82f-4617-abc1-1ffefb69d141")
+	)
+	(wire
+		(pts
+			(xy 134.62 87.63) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae01447f-c42e-4f5b-b725-3235abe58629")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c622dc-683a-419a-8815-c3eb64186afd")
+	)
+	(wire
+		(pts
+			(xy 259.08 41.91) (xy 259.08 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37e1929-3ac0-4ca0-aace-51f8b3892463")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 163.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46215ec-2505-4289-b875-a66fff710c94")
+	)
+	(wire
+		(pts
+			(xy 147.32 120.015) (xy 154.94 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f6c74a-1f2f-478a-bd94-48ba7d012c96")
+	)
+	(wire
+		(pts
+			(xy 197.485 50.165) (xy 197.485 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7942a58-17c4-4710-aa0f-e9ed14fa45bf")
+	)
+	(wire
+		(pts
+			(xy 163.83 120.015) (xy 163.83 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8506f82-53da-4aef-a211-4990fb04375a")
+	)
+	(wire
+		(pts
+			(xy 144.78 154.305) (xy 152.4 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a8ad9d-caa6-4a4e-a186-72342d324aa4")
+	)
+	(wire
+		(pts
+			(xy 217.805 114.935) (xy 217.805 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7c181e-6fb0-42b4-a635-394ee4514cbf")
+	)
+	(wire
+		(pts
+			(xy 147.32 123.825) (xy 155.575 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbaed791-ae32-4aef-a7c6-e5965946047e")
+	)
+	(wire
+		(pts
+			(xy 144.78 158.115) (xy 152.4 158.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9e1734-44c9-404b-a2d6-6d45437b38e7")
+	)
+	(wire
+		(pts
+			(xy 163.83 109.855) (xy 170.18 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddeb137-85dc-4f79-a990-9ab2e4e785dd")
+	)
+	(wire
+		(pts
+			(xy 163.83 109.855) (xy 163.83 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5655496-45e3-4b1a-9ec8-7763917bbb0e")
+	)
+	(wire
+		(pts
+			(xy 197.485 74.295) (xy 197.485 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73b4e6e-aadc-460e-a078-f8848b2de0d2")
+	)
+	(wire
+		(pts
+			(xy 197.485 71.755) (xy 197.485 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c888f983-cfde-4d9c-a12b-933aa4fd04ee")
+	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c993b9f1-90de-42df-b041-f2fdfa77d7df")
+	)
+	(wire
+		(pts
+			(xy 197.485 114.935) (xy 217.805 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1c8b5d-6061-4cd8-8ad2-eed18e612e5d")
+	)
+	(wire
+		(pts
+			(xy 160.02 158.115) (xy 157.48 158.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbda2c48-c3cd-42bb-aac3-db22e56d1fbc")
+	)
+	(wire
+		(pts
+			(xy 259.08 43.18) (xy 273.05 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbd2489-f4ca-46cc-a650-aa2ec706d5a3")
+	)
+	(wire
+		(pts
+			(xy 197.485 71.755) (xy 197.485 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe26abd-34f6-42a6-b6e3-d226ef426dc1")
+	)
+	(wire
+		(pts
+			(xy 80.645 49.53) (xy 80.645 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d1022abc-56aa-4730-962d-15e3361d4554")
+	)
+	(wire
+		(pts
+			(xy 217.805 89.535) (xy 217.805 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d712723c-9093-4125-9457-e38ce804f5b3")
+	)
+	(wire
+		(pts
+			(xy 53.975 90.17) (xy 53.975 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d847eea7-a6fe-4589-89eb-cc452dc35cc3")
+	)
+	(wire
+		(pts
+			(xy 74.295 49.53) (xy 67.945 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9111dfb-dad4-49e4-806c-cef731872ca7")
+	)
+	(wire
+		(pts
+			(xy 160.02 120.015) (xy 163.83 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da92a302-3b99-4c2f-b83f-b2534e9fae78")
+	)
+	(wire
+		(pts
+			(xy 163.83 73.66) (xy 168.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9d0a68-2142-4a53-a08c-6f5329d28048")
+	)
+	(wire
+		(pts
+			(xy 217.805 65.405) (xy 217.805 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfb60ef-abdf-4991-a46e-c1391cf3935b")
+	)
+	(wire
+		(pts
+			(xy 197.485 118.745) (xy 197.485 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2cb604e-7fa3-4fed-a35a-5d3ccae555c0")
+	)
+	(wire
+		(pts
+			(xy 144.78 49.53) (xy 144.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ed3fa5-f17c-483a-94d3-42463253cfaf")
+	)
+	(wire
+		(pts
+			(xy 217.805 41.275) (xy 217.805 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9709709-ebb9-40a8-98f9-686dba684cd1")
+	)
+	(wire
+		(pts
+			(xy 160.02 144.145) (xy 165.1 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea299aeb-512c-4f6f-9319-a87ffffa4b7e")
+	)
+	(wire
+		(pts
+			(xy 259.08 52.07) (xy 270.51 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee17fd6d-f2cb-477b-9de8-c2a05cb35487")
+	)
+	(wire
+		(pts
+			(xy 80.645 34.29) (xy 102.87 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb286d2-42f5-4335-8e9d-17b5d08f6406")
+	)
+	(wire
+		(pts
+			(xy 144.78 87.63) (xy 154.94 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f095bcf8-699d-4db3-ba1a-506b90654490")
+	)
+	(wire
+		(pts
+			(xy 80.645 113.665) (xy 80.645 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1947d60-3280-45af-8f82-6d01000e84d3")
+	)
+	(wire
+		(pts
+			(xy 160.02 83.82) (xy 163.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ea643c-6c01-44bf-be2d-9311a3554db4")
+	)
+	(wire
+		(pts
+			(xy 197.485 47.625) (xy 197.485 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c8b276-c076-4bb2-86c5-ee04f551c3be")
+	)
+	(wire
+		(pts
+			(xy 147.32 120.015) (xy 147.32 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cf3d94-a3ba-40f0-b0fe-3c40395e59f3")
+	)
+	(wire
+		(pts
+			(xy 197.485 95.885) (xy 197.485 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc71410f-4d08-489d-bb60-e61d1818afaa")
+	)
+	(wire
+		(pts
+			(xy 147.32 107.315) (xy 121.92 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe99082e-d76d-41ff-ac09-74863be1d8bb")
+	)
+	(label "X1-"
+		(at 134.62 53.34 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "033a35c1-d242-46c2-9c7a-0c5b6309fcd3")
+	)
+	(label "X2-"
+		(at 102.87 36.83 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d61d73e-d2aa-4c9b-bad9-7c4d5cb54497")
+	)
+	(label "O4+"
+		(at 165.1 144.145 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "131d5561-6193-45df-a421-6ce40ddf6b5e")
+	)
+	(label "O3+"
+		(at 170.18 109.855 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "136c0d63-cbc8-411b-a577-64e391ec2e72")
+	)
+	(label "O3+"
+		(at 187.325 79.375 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "36ee745c-6140-4d50-a3e0-a097e9a3801a")
+	)
+	(label "X1-"
+		(at 102.87 34.29 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "52a10fb8-4821-4bde-8bbe-9310f8b9b1a2")
+	)
+	(label "O1+"
+		(at 187.325 128.905 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bb22368-8ac7-4399-9eb9-103fe85a143e")
+	)
+	(label "O2+"
+		(at 187.325 103.505 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67ffd287-c848-4541-9e0b-3c50bcf38b2f")
+	)
+	(label "O2+"
+		(at 168.91 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7481775a-2a23-426f-ad5c-35c5f6b14e93")
+	)
+	(label "X3-"
+		(at 137.16 123.825 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d87c9bd-8aa9-4376-804a-7fce457a1129")
+	)
+	(label "X2-"
+		(at 134.62 87.63 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c76c77b-b568-47d3-8a90-790b61020871")
+	)
+	(label "AREF"
+		(at 88.9 107.315 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "911db304-872b-40c2-a4ee-6d049c3f5293")
+	)
+	(label "X3-"
+		(at 102.87 39.37 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d531ac0-4f17-4296-a754-d90f6cce1d90")
+	)
+	(label "X4-"
+		(at 134.62 158.115 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "adf4d6d3-ea76-4e44-9644-ea6e2d2f9bb9")
+	)
+	(label "X4-"
+		(at 102.87 41.91 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "c466c5de-4cbf-456e-9a87-475b660ff99e")
+	)
+	(label "O1+"
+		(at 168.91 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3fbbdc8-e2d6-433e-af95-fc57954b81f6")
+	)
+	(label "O4+"
+		(at 187.325 55.245 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc5ca2d2-a6b4-4053-a9a1-53ee48cf51bc")
+	)
+	(global_label "V+"
+		(shape input)
+		(at 64.77 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44f82c94-7827-4c8c-9513-570e225983c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.519 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "V+"
+		(shape input)
+		(at 270.51 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59f19bf8-646f-4582-aea3-0d13c2a31d68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.1562 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V-"
+		(shape input)
+		(at 270.51 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93757bad-d4ed-4420-8579-aa91c167ceb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.761 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V+"
+		(shape input)
+		(at 53.975 76.835 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c7010c2-81ab-4569-8c31-4e455844b873")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6212 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V-"
+		(shape input)
+		(at 81.915 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7cc15dd-4151-44d3-851c-394d863b9c5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.166 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 80.645 109.855 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d8cb499-3542-4012-b6a8-7f6e2140a909")
+		(property "Reference" "C5"
+			(at 74.295 108.585 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 74.295 111.125 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 80.645 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.645 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 80.645 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3d0b94d-e2fb-4989-b83c-e024aaa9121d")
+		)
+		(pin "2"
+			(uuid "dbeb8993-6ed7-46b6-85cb-e7a9890f29c8")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RP:AudioJack3_Switch")
+		(at 202.565 123.825 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "116a669c-5255-4153-b74b-4af1d21331e4")
+		(property "Reference" "J5"
+			(at 211.963 124.333 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMJ6HFD2"
+			(at 191.135 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:NMJ6HFD2"
+			(at 201.803 115.951 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.565 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)"
+			(at 200.787 115.443 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "Phone Connectors 3C STEREO 3-SPST NC"
+			(at 183.515 126.365 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Height" "15.69"
+			(at 183.515 128.905 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Part Number" "550-20301"
+			(at 183.515 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Neutrik/NMJ6HFD2?qs=y5MlCMoPWsng3r9W7xlRqw%3D%3D"
+			(at 183.515 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Name" "Neutrik"
+			(at 183.515 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NMJ6HFD2"
+			(at 183.515 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "6"
+			(uuid "49d2aada-3e96-4586-94c9-42f7a0d42e28")
+		)
+		(pin "1"
+			(uuid "30d50822-b876-4cf8-9d8f-b84fe5e93712")
+		)
+		(pin "4"
+			(uuid "2d197444-38d6-43b8-8af3-f1e94cf3d20d")
+		)
+		(pin "3"
+			(uuid "838b13ac-47f3-4683-a642-5122e42459b8")
+		)
+		(pin "5"
+			(uuid "2aa106ef-1c87-460f-8502-f41f1b068f78")
+		)
+		(pin "2"
+			(uuid "148739a2-cd89-416e-9818-fdbff3f508d8")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 254 44.45 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b354eb6-73f0-4469-ab76-7cabeb36acf3")
+		(property "Reference" "U2"
+			(at 252.73 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL072"
+			(at 252.73 45.7199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 254 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 254 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 254 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "a5092c51-69d1-4d01-8495-358fe2b55258")
+		)
+		(pin "1"
+			(uuid "c36c0c31-3b81-428c-aec2-161a4106677e")
+		)
+		(pin "8"
+			(uuid "0b350232-aa8b-4b36-9d21-433da3dca517")
+		)
+		(pin "3"
+			(uuid "d5fa2948-02f6-46ca-95c5-8700efcc0965")
+		)
+		(pin "4"
+			(uuid "c0d61eb3-a9b8-4565-9b13-9f94d7440928")
+		)
+		(pin "2"
+			(uuid "bfa54178-4fed-443d-8c22-3b47b125044c")
+		)
+		(pin "5"
+			(uuid "6b11ec42-06dc-411f-888e-20c18bad3832")
+		)
+		(pin "6"
+			(uuid "6fcbf367-6310-4780-b652-852db70c9bbb")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 142.24 53.34 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "207fadff-0b6f-48be-8040-c710578b52d6")
+		(property "Reference" "R1"
+			(at 144.018 55.372 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.272 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "726b98cb-aef5-449c-98fc-d8b879ef2b86")
+		)
+		(pin "2"
+			(uuid "ffd98289-4ee2-4ba3-8ea3-3f2d4aaad35f")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 259.08 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28c63888-8c12-4d52-b456-05ce1e1a8acb")
+		(property "Reference" "C1"
+			(at 261.62 38.1062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 261.62 40.6462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 259.08 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 259.08 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec3e1391-1687-43ec-9422-520745d775e6")
+		)
+		(pin "2"
+			(uuid "d4b7cea0-f21d-44f5-a87b-e8fce804e58b")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N914")
+		(at 53.975 102.235 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ac8047e-7272-4501-9c94-2f063a29c3d5")
+		(property "Reference" "D2"
+			(at 56.515 100.9649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N914"
+			(at 56.515 103.5049 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 58.42 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 53.975 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(at 53.975 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.975 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.975 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3c346f5-bdd4-48be-bb15-c02874170bf1")
+		)
+		(pin "2"
+			(uuid "eb569c6a-e55f-47b6-8470-252d28ace8f5")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cs42448-CS5343 audio RevE v3 HDR Simple-eagle-import:AGND")
+		(at 53.975 116.205 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e7b4576-6aa3-4d54-982c-ea0ff7b965df")
+		(property "Reference" "#SUPPLY03"
+			(at 53.975 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND"
+			(at 56.642 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.975 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.975 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.975 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "495bd612-f9a7-4db1-9b8c-7ee11fc0894b")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "#SUPPLY03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cs42448-CS5343 audio RevE v3 HDR Simple-eagle-import:AGND")
+		(at 273.05 45.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2eee59d2-2506-41d8-955f-b3025c9479b6")
+		(property "Reference" "#SUPPLY01"
+			(at 273.05 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND"
+			(at 275.717 48.895 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bddf9be-4f35-4300-8766-8c2796c7ea75")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "#SUPPLY01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 158.75 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b3b76dc-674b-48fd-af8c-9889c6009a0e")
+		(property "Reference" "C2"
+			(at 158.7563 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100p"
+			(at 158.7563 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 158.75 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 158.75 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c67636e-1d87-45c9-8502-717e4c07be03")
+		)
+		(pin "2"
+			(uuid "cf4ce42d-a1bc-4964-8866-2b07d371f61b")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 158.75 53.34 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d829c58-9666-452f-905f-02e79dfd1fc0")
+		(property "Reference" "R2"
+			(at 160.782 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 160.782 57.912 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 158.75 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84b5d62c-d5a3-4956-8b9a-aa9c32d0cb11")
+		)
+		(pin "2"
+			(uuid "a488b0ce-0e60-4270-a83f-1725d2078ca7")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 154.94 154.305 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "503e0e78-cd8f-4fab-a803-3373d7b099db")
+		(property "Reference" "C7"
+			(at 154.9463 147.955 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100p"
+			(at 154.9463 150.495 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 154.94 154.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 154.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 154.94 154.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e9b9f02-606c-4e29-aeaf-423c8c71310a")
+		)
+		(pin "2"
+			(uuid "e1839e54-72be-4ad8-a73e-eeae84889173")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RP:AudioJack3_Switch")
+		(at 202.565 74.295 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c322053-c65e-457c-980e-79f10516a8d6")
+		(property "Reference" "J3"
+			(at 210.693 74.041 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMJ6HFD2"
+			(at 203.073 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:NMJ6HFD2"
+			(at 201.803 66.421 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.565 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)"
+			(at 200.787 65.913 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "Phone Connectors 3C STEREO 3-SPST NC"
+			(at 183.515 76.835 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Height" "15.69"
+			(at 183.515 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Part Number" "550-20301"
+			(at 183.515 81.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Neutrik/NMJ6HFD2?qs=y5MlCMoPWsng3r9W7xlRqw%3D%3D"
+			(at 183.515 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Name" "Neutrik"
+			(at 183.515 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NMJ6HFD2"
+			(at 183.515 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "74ef675e-3515-40d1-a296-26d108e191ab")
+		)
+		(pin "1"
+			(uuid "290c2174-5835-4377-856d-5948f8c36078")
+		)
+		(pin "6"
+			(uuid "6e16480e-db18-4645-a4a4-0880d61a07f7")
+		)
+		(pin "2"
+			(uuid "99e04954-d25c-4e9d-a41d-3ca731b70b18")
+		)
+		(pin "5"
+			(uuid "ffda43d2-9b12-490c-a53c-7e45b67827ec")
+		)
+		(pin "4"
+			(uuid "f84524cc-a7b0-4886-acc9-62dad020fb03")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 142.24 158.115 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f9bd6d2-0714-49c3-ab64-e19dde9a2e6e")
+		(property "Reference" "R8"
+			(at 144.018 160.147 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.272 161.925 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 142.24 158.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 158.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 158.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "233b2e49-fc10-4705-aa10-5b9fdb708489")
+		)
+		(pin "2"
+			(uuid "72f88250-ad61-4f0c-bec1-d7a56214f0cb")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RP:AudioJack3_Switch")
+		(at 202.565 98.425 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ecdcfbf-76c7-4c96-a73b-0bd499911119")
+		(property "Reference" "J4"
+			(at 210.439 99.187 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMJ6HFD2"
+			(at 191.135 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:NMJ6HFD2"
+			(at 201.803 90.551 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.565 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)"
+			(at 200.787 90.043 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "Phone Connectors 3C STEREO 3-SPST NC"
+			(at 183.515 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Height" "15.69"
+			(at 183.515 103.505 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Part Number" "550-20301"
+			(at 183.515 106.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Neutrik/NMJ6HFD2?qs=y5MlCMoPWsng3r9W7xlRqw%3D%3D"
+			(at 183.515 108.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Name" "Neutrik"
+			(at 183.515 111.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NMJ6HFD2"
+			(at 183.515 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "6"
+			(uuid "aa74d429-5cc6-4a91-95d2-9f03f4e975bd")
+		)
+		(pin "5"
+			(uuid "d461830a-d260-4d97-a290-f434dd9d1fc1")
+		)
+		(pin "3"
+			(uuid "da4a4f09-21d9-498a-a357-71258079967e")
+		)
+		(pin "1"
+			(uuid "b553ff0a-94fc-4188-94a6-3eeb117fa786")
+		)
+		(pin "2"
+			(uuid "11daca44-7387-461a-a9ed-3a63e1b87564")
+		)
+		(pin "4"
+			(uuid "30a45676-1bd9-4e07-b058-8fc7cf6660b6")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N914")
+		(at 53.975 109.855 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71179d65-4b4d-4210-9e93-9145812c3c7f")
+		(property "Reference" "D3"
+			(at 56.515 108.5849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N914"
+			(at 56.515 111.1249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 58.42 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 53.975 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(at 53.975 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.975 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.975 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "550f1c38-e3ca-4865-ae6e-166854f27ffe")
+		)
+		(pin "2"
+			(uuid "3656ba43-6f8e-4553-9ce2-9ef787535a4e")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 144.78 123.825 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ad2d28a-3835-4011-b216-20bfaa4bf4aa")
+		(property "Reference" "R6"
+			(at 146.558 125.857 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 146.812 127.635 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 144.78 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a652c54d-bdcc-49a7-ae1e-2c3a56417fed")
+		)
+		(pin "2"
+			(uuid "c00d5cbd-1bd1-436c-8a81-d2b519b58454")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 157.48 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b23596f-3ebf-454b-8984-51cf03fd85b1")
+		(property "Reference" "C4"
+			(at 157.4863 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100p"
+			(at 157.4863 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32e619af-102c-4a23-a90a-69b69e33691c")
+		)
+		(pin "2"
+			(uuid "c054db2c-315c-402f-957a-03f9a359b877")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 142.24 87.63 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7f82edc2-a26a-4ec4-9ab1-cb4ccb4a4d7c")
+		(property "Reference" "R4"
+			(at 144.018 89.662 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.272 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 142.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f67cf7b0-54a9-4126-be3c-d67cd73204b8")
+		)
+		(pin "2"
+			(uuid "98087ecf-80bc-457d-b7a6-938428dcc4ab")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 158.115 123.825 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "830434f4-886e-43c3-b46b-025c6e6d5121")
+		(property "Reference" "R7"
+			(at 159.639 126.365 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 160.147 128.397 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 158.115 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.115 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.115 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0632a9d6-9da9-4cf1-9bad-abc21abeb9d8")
+		)
+		(pin "2"
+			(uuid "44b7a86f-44c2-4040-9312-a3a0b8664c41")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 267.97 151.765 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "925e3f9f-d551-46d2-bdd9-85e4add1cbe8")
+		(property "Reference" "H2"
+			(at 270.51 150.4949 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 270.51 153.0349 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RP:MountingHole_3.5mm"
+			(at 267.97 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 267.97 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RP:AudioJack3_Switch")
+		(at 202.565 50.165 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0d721bb-c66c-43aa-8ac7-d318a7bd03f4")
+		(property "Reference" "J2"
+			(at 210.185 50.673 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Neutrik NMJ6HFD2"
+			(at 204.343 38.989 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:NMJ6HFD2"
+			(at 201.803 42.291 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.565 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)"
+			(at 200.787 41.783 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "Phone Connectors 3C STEREO 3-SPST NC"
+			(at 183.515 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Height" "15.69"
+			(at 183.515 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Part Number" "550-20301"
+			(at 183.515 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Neutrik/NMJ6HFD2?qs=y5MlCMoPWsng3r9W7xlRqw%3D%3D"
+			(at 183.515 60.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Name" "Neutrik"
+			(at 183.515 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NMJ6HFD2"
+			(at 183.515 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "6"
+			(uuid "fdc775e0-466b-495b-b3d7-bd86876838cd")
+		)
+		(pin "2"
+			(uuid "af608606-3137-42d8-a269-7044b9a82853")
+		)
+		(pin "5"
+			(uuid "f6ed09cd-4920-4f6d-924d-f3bcdb6c0155")
+		)
+		(pin "4"
+			(uuid "77d967d9-f49b-470a-8aa4-f4586fe83035")
+		)
+		(pin "3"
+			(uuid "d540a242-c32c-479d-978c-4bc7b1f84325")
+		)
+		(pin "1"
+			(uuid "2243fa06-b562-4a8f-b43f-670ad1ffbe41")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 259.08 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a142402f-5d0d-4b7a-bb93-2b6816e5dfec")
+		(property "Reference" "C3"
+			(at 261.62 48.2662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 261.62 50.8062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 259.08 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 259.08 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82e351b2-f8d2-43e5-aa52-1c3ef9d9996f")
+		)
+		(pin "2"
+			(uuid "192f1dbd-9ee5-46e5-bb7d-c4af87508c36")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 154.94 158.115 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1e27890-d414-4d75-868e-2a19ab6547b8")
+		(property "Reference" "R9"
+			(at 156.464 160.655 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 156.972 162.687 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 154.94 158.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 158.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 158.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e561b254-3b6c-47ad-8200-abd0bcf4b17f")
+		)
+		(pin "2"
+			(uuid "a78b19c5-0c85-4330-9d47-b96d1d426212")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cs42448-CS5343 audio RevE v3 HDR Simple-eagle-import:AGND")
+		(at 74.295 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a83c4a84-6a5d-43e3-b6b5-fb5ec4aa605e")
+		(property "Reference" "#SUPPLY02"
+			(at 74.295 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND"
+			(at 71.501 56.642 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.295 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.295 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.295 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c50a6f8-c47a-4ce8-9712-4b3bf75d8735")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "#SUPPLY02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N914")
+		(at 53.975 94.615 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7ea1806-8579-488f-8a5a-eb7e48af9c2f")
+		(property "Reference" "D1"
+			(at 56.515 93.3449 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N914"
+			(at 56.515 95.8849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 58.42 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 53.975 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(at 53.975 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.975 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.975 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40880434-3cd0-4ed6-b650-6be19fed899b")
+		)
+		(pin "2"
+			(uuid "fdc4e2af-c48d-443c-955a-e7c62443b54b")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 157.48 120.015 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb0a9ab5-37ef-4c25-891d-5abbd8becf0e")
+		(property "Reference" "C6"
+			(at 157.4863 113.665 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100p"
+			(at 157.4863 116.205 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 157.48 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3db35db-6bd0-4d84-a736-ed559a3baaa2")
+		)
+		(pin "2"
+			(uuid "42668a76-59f8-4b13-82d4-2906c80c8e61")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 154.94 73.66 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0c54975-9de5-4197-835d-2f39535bbf42")
+		(property "Reference" "U1"
+			(at 154.94 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 154.94 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 154.94 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 154.94 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 154.94 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0efb87f6-7150-4236-914a-8c78e3228a0b")
+		)
+		(pin "7"
+			(uuid "dfd1f35f-24bc-4fa8-8169-f07569ab5d1c")
+		)
+		(pin "8"
+			(uuid "f7846133-0ac3-4a5a-a784-66bbb3051a81")
+		)
+		(pin "1"
+			(uuid "e202638c-4bf6-45c3-99ec-f0b3ad958611")
+		)
+		(pin "3"
+			(uuid "be92425a-cb1b-4e18-9963-53a94316ad2c")
+		)
+		(pin "5"
+			(uuid "338582e4-6ab7-404e-be9d-9f97f451da33")
+		)
+		(pin "6"
+			(uuid "535029bb-00d3-4dc5-9f63-23cce15cf4e4")
+		)
+		(pin "4"
+			(uuid "256b58ee-5d97-47ad-ac69-f44cb8bde549")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 152.4 144.145 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c73894d6-2b97-468e-8117-55aa9ba9f5e2")
+		(property "Reference" "U2"
+			(at 152.4 133.985 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 152.4 136.525 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 152.4 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 152.4 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 152.4 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "a5092c51-69d1-4d01-8495-358fe2b55259")
+		)
+		(pin "1"
+			(uuid "c36c0c31-3b81-428c-aec2-161a4106677f")
+		)
+		(pin "8"
+			(uuid "0b350232-aa8b-4b36-9d21-433da3dca518")
+		)
+		(pin "3"
+			(uuid "d5fa2948-02f6-46ca-95c5-8700efcc0966")
+		)
+		(pin "4"
+			(uuid "c0d61eb3-a9b8-4565-9b13-9f94d7440929")
+		)
+		(pin "2"
+			(uuid "bfa54178-4fed-443d-8c22-3b47b125044d")
+		)
+		(pin "5"
+			(uuid "6b11ec42-06dc-411f-888e-20c18bad3833")
+		)
+		(pin "6"
+			(uuid "6fcbf367-6310-4780-b652-852db70c9bbc")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 66.675 107.315 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc275ca6-89d5-40d0-beb4-c6df3a09469b")
+		(property "Reference" "RV1"
+			(at 71.755 103.505 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 71.755 109.855 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal"
+			(at 66.675 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.675 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 66.675 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 66.675 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 66.675 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 66.675 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "28683e89-312a-4015-9916-727c8ca8b1d1")
+		)
+		(pin "1"
+			(uuid "0c973a00-721a-4e9e-86d0-e7c575b000c9")
+		)
+		(pin "3"
+			(uuid "2556373b-85ea-406b-a8b4-f82eeb4a203e")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 53.975 85.725 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc620142-7cc2-4418-9b31-6d2bd8cf9146")
+		(property "Reference" "R3"
+			(at 56.515 83.185 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 57.15 85.725 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 53.975 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.975 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.975 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1783a818-38b0-4922-a384-4a0ff4bccc46")
+		)
+		(pin "2"
+			(uuid "773b1a79-cc96-407f-86de-c9d463ce67ee")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 259.08 151.765 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf7b2b93-9440-4165-a43b-7d51473e1e2e")
+		(property "Reference" "H1"
+			(at 261.62 150.4949 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 261.62 153.0349 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RP:MountingHole_3.5mm"
+			(at 259.08 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 259.08 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 154.94 109.855 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf8cf674-ec95-49b4-ab83-48fe939db22b")
+		(property "Reference" "U2"
+			(at 154.94 99.695 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 154.94 102.235 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 154.94 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 154.94 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 154.94 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "a5092c51-69d1-4d01-8495-358fe2b5525a")
+		)
+		(pin "1"
+			(uuid "c36c0c31-3b81-428c-aec2-161a41066780")
+		)
+		(pin "8"
+			(uuid "0b350232-aa8b-4b36-9d21-433da3dca519")
+		)
+		(pin "3"
+			(uuid "d5fa2948-02f6-46ca-95c5-8700efcc0967")
+		)
+		(pin "4"
+			(uuid "c0d61eb3-a9b8-4565-9b13-9f94d744092a")
+		)
+		(pin "2"
+			(uuid "bfa54178-4fed-443d-8c22-3b47b125044e")
+		)
+		(pin "5"
+			(uuid "6b11ec42-06dc-411f-888e-20c18bad3834")
+		)
+		(pin "6"
+			(uuid "6fcbf367-6310-4780-b652-852db70c9bbd")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 243.84 44.45 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2ee3801-5053-4daf-88c9-d7c94d53d97b")
+		(property "Reference" "U1"
+			(at 242.57 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL072"
+			(at 257.302 54.864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 243.84 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 243.84 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 243.84 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b5908f0-11c5-4eb7-913a-df6273710987")
+		)
+		(pin "4"
+			(uuid "16b28dda-c169-4f47-a79e-47a7546cb596")
+		)
+		(pin "3"
+			(uuid "ed00bfbb-f923-4030-93ff-ae4dfff62613")
+		)
+		(pin "8"
+			(uuid "8667ada5-6019-4b8b-b812-7f7c5c953f46")
+		)
+		(pin "7"
+			(uuid "e9211661-7cca-4d71-bf9f-4be0741b3b69")
+		)
+		(pin "6"
+			(uuid "52f24f52-c1b6-4ae4-b77a-4ad79ca1f0b0")
+		)
+		(pin "2"
+			(uuid "9748b6b6-1e3e-4ac4-896b-a210091fd292")
+		)
+		(pin "5"
+			(uuid "bba6ce36-6b40-447e-9714-3961e4028d8e")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 157.48 87.63 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d98cb33a-b28e-4859-b130-c0d15f613e14")
+		(property "Reference" "R5"
+			(at 159.258 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 159.512 92.202 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 157.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76eda3e1-4a71-42eb-8541-c2da76f7db56")
+		)
+		(pin "2"
+			(uuid "76a6c565-728d-4e4e-8ea3-7160d3da48a3")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 73.025 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ddca99f2-80ea-430a-92b2-200d3d970097")
+		(property "Reference" "J1"
+			(at 74.295 26.162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INPUTS"
+			(at 74.041 28.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SHDRRA12W65P254_2X6_1758X1090X1005P"
+			(at 73.025 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.025 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.025 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.22"
+			(at 92.075 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Part Number" "571-1761681-3"
+			(at 92.075 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1761681-3?qs=zDQ%2FIlbob1ssmXlOpwQNHA%3D%3D"
+			(at 92.075 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 92.075 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1761681-3"
+			(at 92.075 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "4"
+			(uuid "29dbb54b-20b1-4ba4-8c93-4114315043d3")
+		)
+		(pin "7"
+			(uuid "3d10c7c7-264c-43f6-8c01-d30ba6af9c7f")
+		)
+		(pin "9"
+			(uuid "dbf06633-a489-427b-9619-dccd14898ed4")
+		)
+		(pin "1"
+			(uuid "a5d4f8df-15a7-4164-b36d-273363455135")
+		)
+		(pin "8"
+			(uuid "a24f7747-60d8-4d62-b559-af63bb49e9dc")
+		)
+		(pin "5"
+			(uuid "397194e5-cfb9-4ea4-89ea-0478505fd621")
+		)
+		(pin "6"
+			(uuid "8e57b5a4-7ca1-4760-aae4-170c1fc48428")
+		)
+		(pin "2"
+			(uuid "a4c50cad-02c5-4144-ab2b-9726b57031c9")
+		)
+		(pin "3"
+			(uuid "dd0f7f7c-71fc-4870-a54a-b0d7dc90eafb")
+		)
+		(pin "10"
+			(uuid "c722a6e5-8b74-4c96-a00e-b7d9b6eeac86")
+		)
+		(pin "11"
+			(uuid "938ff0e1-d020-467b-a5de-e598ab1f209a")
+		)
+		(pin "12"
+			(uuid "e1be1c4a-b713-4f23-95f0-446467194c8b")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cs42448-CS5343 audio RevE v3 HDR Simple-eagle-import:AGND")
+		(at 217.805 136.525 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb09b8dc-586d-4698-bf3d-4fb74942d48f")
+		(property "Reference" "#SUPPLY04"
+			(at 217.805 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AGND"
+			(at 220.472 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.805 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.805 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 217.805 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1110ab99-a9a0-4de0-bdae-685aca32fdb2")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "#SUPPLY04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 156.21 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4acebaf-e71e-4d73-9f6f-d05502c51921")
+		(property "Reference" "U1"
+			(at 156.21 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 156.21 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 156.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 156.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 156.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0efb87f6-7150-4236-914a-8c78e3228a0d")
+		)
+		(pin "7"
+			(uuid "dfd1f35f-24bc-4fa8-8169-f07569ab5d1e")
+		)
+		(pin "8"
+			(uuid "f7846133-0ac3-4a5a-a784-66bbb3051a83")
+		)
+		(pin "1"
+			(uuid "e202638c-4bf6-45c3-99ec-f0b3ad958613")
+		)
+		(pin "3"
+			(uuid "be92425a-cb1b-4e18-9963-53a94316ad2e")
+		)
+		(pin "5"
+			(uuid "338582e4-6ab7-404e-be9d-9f97f451da35")
+		)
+		(pin "6"
+			(uuid "535029bb-00d3-4dc5-9f63-23cce15cf4e6")
+		)
+		(pin "4"
+			(uuid "256b58ee-5d97-47ad-ac69-f44cb8bde54b")
+		)
+		(instances
+			(project "Wing Board TRS Eurorack Control Output"
+				(path "/fe1007c5-3126-4e7c-9e9b-a444a39fffc7"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

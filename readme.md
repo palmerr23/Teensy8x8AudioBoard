@@ -33,9 +33,9 @@ The main PCB which has the four CODECs and control logic. It features:
 
 * The main PCB does not have decoupling capacitors on the inputs or outputs. They are on the Wing boards.
 
-* Rev K, L and M boards are entirely interoperable. 
+* Note that the phase is reversed on the outputs. Yellow trace is +input, blue trace is +output. Swap the output pins for correct phasing.
 
-* Rev L & M have an additional pin on the Expansion header to assist in 32 x 32 and greater operation.
+![DSO burst capture](./images/toneburst.png)
 
 ## Input and output Wing boards
 Wing-boards with input or output connectors and DC coupling capacitors. Several different wing boards are offered:
